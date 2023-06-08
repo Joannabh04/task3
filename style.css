@@ -20,12 +20,12 @@ body, html {
 
 
 .pimg1{
- background-image: url("./pictures/1028225.jpg");
+ background-image: url(./pictures/1028225.jpg);
  min-height: 100%;
 }
 
 .pimg2{
- background-image: url("./pictures/2404956.jpg");
+ background-image: url(./pictures/2404956.jpg);
  height: 400px;
  top: 0;
  left: 0;
@@ -33,7 +33,7 @@ body, html {
 }
 
 .pimg3{
- background-image: url("./pictures/4969843.jpg");
+ background-image: url(./pictures/4969843.jpg);
  height: 400px;
  top: 0;
  left: 0;
@@ -53,7 +53,7 @@ body, html {
     background-color: #282e34;
     color: #ddd;
 }
-.ptext{
+.ptext {
     position: absolute;
     top:50%;
     width: 100%;
@@ -65,19 +65,11 @@ body, html {
 }
 
 
-.ptext{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-    font-size: 27px
-    letter-spacing:  8px;
-    text-transform:uppercase;
-}
+
 
 .ptext .border{
-    background-color: #111
+    background-color: #111;
+    border-radius:5px;
     color:#fff;
     padding: 20px;
     position: relative;
